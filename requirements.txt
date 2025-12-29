@@ -1,0 +1,14 @@
+# Core API
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# DB (async SQLAlchemy + SQLite)
+SQLAlchemy[asyncio]==2.0.25
+aiosqlite==0.19.0
+
+# Marketplace dependencies
+stripe==7.11.0
+pillow==10.2.0
+python-magic==0.4.27
